@@ -1,8 +1,9 @@
 {% extends 'layout.html'%}
 
 {% block content %}
-<div class="row col-4 offset-4" style="margin-top: 30vh">
-  <h1 class="text-center" style="width: 100%">Kamu Cari {{ keyword }}, kan?</h1>
+<a class="btn btn-danger btn-sm m-3" href="/">Kembali</a>
+<div class="row col-4 offset-4" style="margin-top: 25vh">
+  <h3 class="text-center" style="width: 100%">Kamu cari kata "{{ keyword }}", kan?</h3>
   <canvas id="chart"></canvas>
 </div>
 {% endblock %}
